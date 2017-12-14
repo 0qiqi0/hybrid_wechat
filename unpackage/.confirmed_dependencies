@@ -1,0 +1,14 @@
+{
+	"models/login/login.html": {
+		"resources": [
+			"models/login/login.css",
+			"common/fonts/mui.ttf",
+			"models/login/login.js",
+			"common/mui.js",
+			"common/mui.css"
+		],
+		"refer": [
+			"models/main/main.html"
+		]
+	}
+}

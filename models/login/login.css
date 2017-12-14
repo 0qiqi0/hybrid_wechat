@@ -1,0 +1,19 @@
+body{
+	background: white;
+}
+.mui-content-padded,.mui-text-center{
+	margin: 22px 8px  22px 8px;
+}
+.mui-btn-green{
+	
+	width: 100%;
+	font-size: 18px;
+}
+
+.question{
+	color: #3058bf
+}
+
+.mui-input-group::before,.mui-input-group::after{
+	height: 0;
+}
