@@ -10,5 +10,62 @@
 		"refer": [
 			"models/main/main.html"
 		]
+	},
+	"models/main/main.html": {
+		"resources": [
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/mui.css",
+			"models/main/main.js",
+			"models/main/main.css",
+			"models/message/message.html",
+			"common/fonts/iconfont.css"
+		],
+		"refer": [
+			"models/discover/discover.html",
+			"models/mine/mine.html",
+			"models/address-book/address-book.html",
+			"models/message/message.html"
+		]
+	},
+	"models/discover/discover.html": {
+		"resources": [
+			"models/discover/discover.js",
+			"models/discover/discover.css"
+		]
+	},
+	"models/mine/mine.html": {
+		"resources": [
+			"models/mine/mine.js",
+			"models/mine/mine.css"
+		]
+	},
+	"models/address-book/address-book.html": {
+		"resources": [
+			"models/address-book/address-book.js",
+			"models/address-book/address-book.css",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/mui.css",
+			"common/mui.indexedlist.css",
+			"common/mui.indexedlist.js",
+			"img/tech2.png",
+			"img/tech3.png",
+			"img/tech1.png"
+		]
+	},
+	"models/message/message.html": {
+		"resources": [
+			"models/message/message.js",
+			"models/message/messgae.css",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/mui.css",
+			"img/tech10.png",
+			"img/tech6.png",
+			"img/tech5.png",
+			"img/tech3.png",
+			"img/tech7.png"
+		]
 	}
 }

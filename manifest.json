@@ -10,7 +10,7 @@
 	"icons": {
 		"72": "icon.png"
 	},
-	"launch_path": "models/login/login.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
+	"launch_path": "models/main/main.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
 	"developer": {
 		"name": "",/*开发者名称*/
 		"email": "",/*开发者邮箱地址*/
@@ -185,6 +185,71 @@
 				"refer": [
 					"models/main/main.html"
 				],
+				"priority": 0
+			},
+			"models/main/main.html": {
+				"resources": [
+					"common/fonts/mui.ttf",
+					"common/mui.js",
+					"common/mui.css",
+					"models/main/main.js",
+					"models/main/main.css",
+					"models/message/message.html",
+					"common/fonts/iconfont.css"
+				],
+				"refer": [
+					"models/discover/discover.html",
+					"models/mine/mine.html",
+					"models/address-book/address-book.html"
+				],
+				"priority": 0
+			},
+			"models/discover/discover.html": {
+				"resources": [
+					"models/discover/discover.js",
+					"models/discover/discover.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"models/mine/mine.html": {
+				"resources": [
+					"models/mine/mine.js",
+					"models/mine/mine.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"models/address-book/address-book.html": {
+				"resources": [
+					"models/address-book/address-book.js",
+					"models/address-book/address-book.css",
+					"common/fonts/mui.ttf",
+					"common/mui.js",
+					"common/mui.css",
+					"common/mui.indexedlist.css",
+					"common/mui.indexedlist.js",
+					"img/tech2.png",
+					"img/tech3.png",
+					"img/tech1.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"models/message/message.html": {
+				"resources": [
+					"models/message/message.js",
+					"models/message/messgae.css",
+					"common/fonts/mui.ttf",
+					"common/mui.js",
+					"common/mui.css",
+					"img/tech10.png",
+					"img/tech6.png",
+					"img/tech5.png",
+					"img/tech3.png",
+					"img/tech7.png"
+				],
+				"refer": [],
 				"priority": 0
 			}
 		},
