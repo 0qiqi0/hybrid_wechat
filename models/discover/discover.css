@@ -1,0 +1,42 @@
+.mui-media-object{
+	background-size:70% 70%
+}
+
+.list-title{
+	height: 38px;
+	line-height: 38px;
+	font-size: 23px;
+}
+.mui-table-view{
+	margin-top: 25px;
+}
+
+.mui-title{
+	font-size: 26px;
+	color: #FFF;
+}
+
+.mui-bar{
+	background: #000;
+}
+
+
+
+.mui-media-object.mui-pull-right{
+		margin-right: 20px;
+			position: relative;
+}
+.mui-media-object.mui-pull-right img{
+	width:100%;
+	height:100%;
+
+}
+#red-point{
+	position: absolute;
+	background: red;
+	border-radius: 50%;
+	top:0;
+	right:0;
+	width: 9px;
+	height: 9px;
+}

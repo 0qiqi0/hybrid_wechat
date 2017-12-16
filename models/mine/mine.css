@@ -1,0 +1,45 @@
+.mui-media-object{
+	background-size:70% 70%
+}
+
+.list-title{
+	height: 38px;
+	line-height: 38px;
+	font-size: 23px;
+}
+.mui-table-view{
+	margin-top: 25px;
+}
+
+.mui-title{
+	font-size: 26px;
+	color: #FFF;
+}
+
+.mui-bar{
+	background: #000;
+}
+
+#my-photo{
+	max-width: 66px;
+	height: 66px;	
+	border-radius: 5px;
+}
+
+.mui-media-body.nickname{
+	padding: 12px 5px;
+}
+
+.code{
+	width:20px;
+	height: 20px;
+	position: absolute;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
+	right: 10%;
+}
+
+.mui-ellipsis{
+	color: #000;
+}

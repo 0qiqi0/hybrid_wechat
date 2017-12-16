@@ -1,17 +1,93 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />	
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="../../common/mui.css"/>
-		<link rel="stylesheet" type="text/css" href="discover.css"/>
+		<link rel="stylesheet" type="text/css" href="../../common/mui.css" />
+		<link rel="stylesheet" type="text/css" href="discover.css" />
 
 	</head>
+
 	<body>
-		发现
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">发现</h1>
+		</header>
+
+		<div class="mui-content">
+
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../img/friend.png">
+						<span class="list-title">朋友圈</span>
+						<span class="mui-media-object mui-pull-right">
+							<img src = '../../img/tech2.png'/>
+							<span id='red-point'></span>
+						</span>
+						
+					</a>
+				</li>
+			</ul>
+			
+			
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell" id="scan">
+					<a class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../img/scan.png">
+						<span class="list-title">
+		                    		扫一扫
+		                    </span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell" id="shake">
+					<a class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../img/shake.png">
+						<span class="list-title">
+		                    		摇一摇
+		                </span>
+					</a>
+				</li>
+			</ul>
+			
+			
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../img/near.png">
+						<span class="list-title">
+		                    		 附近的人
+		                    </span>
+					</a>
+				</li>
+			</ul>
+			
+			
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../img/shopping.png">
+						<span class="list-title">
+		                    	购物
+		                    </span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../img/game.png">
+						<span class="list-title">
+		                    	游戏
+		                    </span>
+					</a>
+				</li>
+			</ul>
+
+		
+		</div>
 	</body>
 
 	<script src='../../common/mui.js'></script>
 	<script src='discover.js'></script>
+
 </html>

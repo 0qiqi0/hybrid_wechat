@@ -2405,7 +2405,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 
 .mui-content > .mui-table-view:first-child
 {
-    margin-top: 15px;
+    //margin-top: 15px;
 }
 
 .mui-table-view-cell.mui-collapse .mui-table-view:before, .mui-table-view-cell.mui-collapse .mui-table-view:after

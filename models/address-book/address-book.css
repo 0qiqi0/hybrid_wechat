@@ -15,3 +15,19 @@ body {
 .mui-indexed-list-bar,.mui-indexed-list-bar.active{
 	background-color: transparent;
 }
+.mui-title{
+	font-size: 26px;
+	color: #FFF;
+}
+
+.mui-bar{
+	background: #000;
+}
+
+.mui-indexed-list-search.mui-input-row.mui-search{
+	margin:15px 5px;
+	border-radius: 5px;
+	border: 1px solid gainsboro;
+	background: #FFF;
+}
+

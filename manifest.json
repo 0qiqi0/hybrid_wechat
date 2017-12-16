@@ -207,15 +207,39 @@
 			"models/discover/discover.html": {
 				"resources": [
 					"models/discover/discover.js",
-					"models/discover/discover.css"
+					"models/discover/discover.css",
+					"common/fonts/mui.ttf",
+					"common/mui.js",
+					"common/mui.css",
+					"img/friend.png",
+					"img/near.png",
+					"img/shake.png",
+					"img/game.png",
+					"img/shopping.png",
+					"img/scan.png",
+					"img/tech6.png",
+					"img/tech2.png"
 				],
-				"refer": [],
+				"refer": [
+					"models/shake/shake.html",
+					"models/scan/scan.html"
+				],
 				"priority": 0
 			},
 			"models/mine/mine.html": {
 				"resources": [
 					"models/mine/mine.js",
-					"models/mine/mine.css"
+					"models/mine/mine.css",
+					"common/mui.js",
+					"common/mui.css",
+					"img/face.png",
+					"img/save.png",
+					"common/fonts/mui.ttf",
+					"img/package.png",
+					"img/code.png",
+					"img/card.png",
+					"img/photo.png",
+					"img/setting.png"
 				],
 				"refer": [],
 				"priority": 0
@@ -248,6 +272,30 @@
 					"img/tech5.png",
 					"img/tech3.png",
 					"img/tech7.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"models/shake/shake.html": {
+				"resources": [
+					"img/shakedown.png",
+					"img/shakeup.png",
+					"models/shake/shake.css",
+					"models/shake/shake.js",
+					"common/fonts/mui.ttf",
+					"common/mui.js",
+					"common/mui.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"models/scan/scan.html": {
+				"resources": [
+					"models/scan/scan.js",
+					"models/scan/scan.css",
+					"common/fonts/mui.ttf",
+					"common/mui.js",
+					"common/mui.css"
 				],
 				"refer": [],
 				"priority": 0
