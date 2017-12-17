@@ -62,7 +62,11 @@
 			"img/code.png",
 			"img/card.png",
 			"img/photo.png",
-			"img/setting.png"
+			"img/setting.png",
+			"img/tech6.png"
+		],
+		"refer": [
+			"models/setting/setting.html"
 		]
 	},
 	"models/address-book/address-book.html": {
@@ -108,6 +112,16 @@
 		"resources": [
 			"models/scan/scan.js",
 			"models/scan/scan.css",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/mui.css"
+		]
+	},
+	"models/setting/setting.html": {
+		"resources": [
+			"models/setting/setting.css",
+			"models/setting/setting.js",
+			"img/lock.png",
 			"common/fonts/mui.ttf",
 			"common/mui.js",
 			"common/mui.css"

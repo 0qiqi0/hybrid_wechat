@@ -1,0 +1,41 @@
+
+.mui-title{
+	font-size: 26px;
+	color: #FFF;
+}
+
+.mui-bar{
+	background: #000;
+}
+
+.mui-table-view{
+	margin: 20px 0px;
+}
+
+.safe-state{
+	float: right;
+	margin-right: 20px;
+	font-size: 14px;
+	color: gray;
+	height: 16px;
+}
+.safe-state img{
+	height:100%;
+	padding-right: 5px;
+	vertical-align: middle;
+}
+
+.loginout-tip{
+	font-size: 18px;
+	color: gray;
+}
+#logout{
+	color: #da4442;
+}
+#cancel{
+	margin-bottom: 0 !important;
+}
+
+#sheet{
+	background: #e8e8ee;
+}
