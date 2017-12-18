@@ -147,9 +147,9 @@
 			"splashscreen": {
 				"ios": {
 					"iphone": {
-						"default": "unpackage/loading.png", /*iPhone3启动图片选，分辨率：320x480*/
-						"retina35": "unpackage/loading.png",/*3.5英寸设备(iPhone4)启动图片，分辨率：640x960*/
-						"retina40": "unpackage/loading.png","retina55":"unpackage/loading.png","retina47":"unpackage/loading.png","retina55l":"unpackage/loading.png"
+						 /*iPhone3启动图片选，分辨率：320x480*/
+						/*3.5英寸设备(iPhone4)启动图片，分辨率：640x960*/
+						
 					},
 					"ipad": {
 						"portrait": "", /*iPad竖屏启动图片，分辨率：768x1004*/
@@ -163,11 +163,11 @@
 					}
 				},
 				"android": {
-					"mdpi": "unpackage/loading.png", /*普通屏启动图片，分辨率：240x282*/
-					"ldpi": "unpackage/loading.png", /*大屏启动图片，分辨率：320x442*/
-					"hdpi": "unpackage/loading.png", /*高分屏启动图片，分辨率：480x762*/
-					"xhdpi": "unpackage/loading.png", /*720P高分屏启动图片，分辨率：720x1242*/
-					"xxhdpi": ""
+					 /*普通屏启动图片，分辨率：240x282*/
+					 /*大屏启动图片，分辨率：320x442*/
+					 /*高分屏启动图片，分辨率：480x762*/
+					 /*720P高分屏启动图片，分辨率：720x1242*/
+					
 				}
 			},"debug":true
 		}
