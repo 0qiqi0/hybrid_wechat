@@ -4,7 +4,7 @@ var Realtime = require('leancloud-realtime').Realtime;
 var TextMessage = require('leanCloud-realtime').TextMessage;
 
 var realTime = new Realtime({
-	appId: 'asd124'
+	appId: 'asd124',
 	region: 'cn',
 })
 
@@ -12,7 +12,8 @@ var send = document.getElementById('send');
 var more = document.getElementById('more');
 var emotion = document.getElementById('emotions');
 
-var mi = document.getElementById('msg-input')
+var mi = document.getElementById('msg-input');
+
 mi.addEventListener('input', function() {
 	if (this.value.trim().length > 0) {
 		send.style.display = 'block';
@@ -65,7 +66,7 @@ document.getElementById('send').addEventListener('tap', function() {
 		// 创建对话
 		return tom.createConversation({
 			members: ['lisi'],
-			name: '本机发给对方的',
+			name: '本机发给对方的'
 		})
 	}).then(function(conversation) {
 		// 发送消息
@@ -80,6 +81,7 @@ document.getElementById('send').addEventListener('tap', function() {
 realtime.createIMClient('lisi').then(function(res) {
 	lisi.on('message', function(message, conversation) {
 		//console.log('Message received: ' + message.text);
+
 		var willSendMsg = '<div class="chat-box chat-box-left mui-content-padded">' +
 		'<img class ="chat-avatar" src="../../img/'+message.photename+'/>' +
 		'<div class="chat-content">' +

@@ -5,8 +5,8 @@
 //初始化
 mui.init();
 
-//创建webview
 
+//创建webview
 mui.plusReady(function(){
 	var parentWv = plus.webview.currentWebview();
 	var pageList = [
@@ -29,7 +29,7 @@ mui.plusReady(function(){
 		var url = pageList[i].url;
 		var id  = pageList[i].id;
 		if(plus.webview.getWebviewById(id)){
-			continue	
+			continue;
 		}
 		var newWv = plus.webview.create(url,id,{
 			bottom 		: '50px',
@@ -37,7 +37,7 @@ mui.plusReady(function(){
 			popGesture 	: 'none'
 		});
 		
-		//设置wv的显示状态
+		//显示第一页.其他的都隐藏
 		i===0?newWv.show():newWv.hide();
 		
 		//把子webview追加到父webview。
@@ -45,16 +45,23 @@ mui.plusReady(function(){
 	}
 
 	var showWv = 'message';
+
 	mui('.mui-bar').on('tap','.mui-tab-item',function(){
 		//mui.alert(this.dataset.id);
-		var newWv = this.dataset.id
+
+		var newWv = this.dataset.id;
 		if(showWv ===newWv) return;
+
+		//隐藏当前页
 		plus.webview.getWebviewById(showWv).hide();
-		
-		var willShowWv = plus.webview.getWebviewById(newWv)
+
+		//得到点击页
+		var willShowWv = plus.webview.getWebviewById(newWv);
+
 		willShowWv.show('none',0,function(){
-			//出发通讯录页面的showpage事件
-			mui.fire(willShowWv,'showpage'); //1参数：出发哪个webview；2参：wv的什么事件。
+
+			//触发点击页面的showpage事件
+			mui.fire(willShowWv,'showpage');      //1参数：触发哪个webview；2参：wv的什么事件。
 		});
 		
 		showWv = newWv;

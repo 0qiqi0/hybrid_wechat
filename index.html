@@ -13,7 +13,9 @@
 	<body>
 		<script type="text/javascript">
 			mui.init();
+			//启动页的webview由系统自己创建,其他的要手动创建.
 			//引导页面只在第一次展示，第二次打开到登录页和主页。
+			//mui api好了后可以用plusready里的.
 			mui.plusReady(function() {
 				//在indexhtml判断是否为第一次打开。
 				if (!!plus.storage.getItem('launchFlag')) {
@@ -24,7 +26,7 @@
 						styles: {
 							popGesture: 'none' //针对苹果手机左滑到上一个页面
 						},
-						show {
+						show :{
 							aniShow: 'none' //不要动画
 						}
 					});
@@ -36,7 +38,7 @@
 						styles: {
 							popGesture: 'none' //针对苹果手机左滑到上一个页面
 						},
-						show {
+						show :{
 							aniShow: 'none' //不要动画
 						}
 					});

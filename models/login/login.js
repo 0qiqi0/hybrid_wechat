@@ -1,13 +1,15 @@
 mui.init();
 
-//进入登录页也要手动关闭引导页，不然要6s才会自动关闭
+
 mui.plusReady(function() {
 	//重写mui的back方法，让其在登录页失效
 	mui.back= function(){};
-	
+
+	//进入登录页也要手动关闭引导页，不然要6s才会自动关闭
 	plus.navigator.closeSplashscreen();
 })
 
+//相当于onload
 mui.ready(function() {
 	
 	//退出按钮
@@ -51,9 +53,9 @@ mui.ready(function() {
 			headers: {
 				'X-LC-Id': '',
 				'X-LC-Key': ''
-			}
+			},
 			success: function(res) {
-				mui.toast('登陆成功')；
+				mui.toast('登陆成功');
 				localStorage.setItem('sessionToken', res.sessionToken);
 				localStorage.setItem('username', res.username);
 				mui.later(function() {
@@ -62,7 +64,7 @@ mui.ready(function() {
 						id: 'main',
 						show: {
 							ainShow: 'none'
-						}
+						},
 						styles: {
 							hardwareAccelerated: true
 						}
